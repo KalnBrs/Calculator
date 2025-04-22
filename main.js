@@ -2,8 +2,6 @@ let show = " ";
 let neg = false;
 let isSign = false;
 
-// max length 12
-
 function getShow() {
   show = document.getElementById('sol').textContent;
 }
