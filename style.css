@@ -1,0 +1,43 @@
+.incase {
+  width: 40%;
+  height: 70%;
+  margin-top: 3em;
+  background-color: grey;
+  font-size: 40px;
+  /* Positioned relative to the nearest positioned ancestor */
+  position: absolute;
+  /* Positioned in the right spot */
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: .5em;
+}
+
+#row1 {
+  margin-top: 4em;
+}
+
+.sign {
+  background-color: orange;
+}
+
+button {
+  background-color: lightgray;
+  width: 9em;
+  height: 5em;
+  border-radius: 10em;
+  border: none;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 80px; 
+  position: absolute;
+  margin: 30px 0;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  color: white;
+  max-width: 90%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
